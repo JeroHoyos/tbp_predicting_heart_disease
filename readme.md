@@ -5,10 +5,10 @@ Para ingresar a la competencia dale click a [link](https://www.kaggle.com/compet
 
 ```bash
 # Clonar repositorio
-git clone 
+git clone https://github.com/JeroHoyos/tbp_predicting_heart_disease
 
 # Entrar al directorio del Desarrollo
-cd 
+cd tbp_predicting_heart_disease
 
 # Crear entorno virtual (Python)
 python -m venv .venv
@@ -38,4 +38,4 @@ deactivate
 
 Revisar [link](https://github.com/shervinea/mit-15-003-data-science-tools/blob/master/en/study-guide-engineering-productivity-tips.pdf)
 
-**Proximos recordatorios se irán agregando dado cómo se vayan desarrollando los acontecimientos.**"# tbp_predicting_heart_disease" 
+**Proximos recordatorios se irán agregando dado cómo se vayan desarrollando los acontecimientos.**
