@@ -11,9 +11,9 @@ git clone https://github.com/JeroHoyos/tbp_predicting_heart_disease
 cd tbp_predicting_heart_disease
 
 # Crear entorno virtual (Python)
-python -m venv .venv
-source venv/bin/activate  # Linux/Mac
-.venv\Scripts\activate    # Windows
+python -m venv .env
+source env/bin/activate  # Linux/Mac
+.env\Scripts\activate    # Windows
 
 # Instalar dependencias
 pip install -r requirements.txt
@@ -26,6 +26,12 @@ Entonces actualiza los requerimientos
 
 ```bash
 pip freeze > requirements.txt
+```
+### Cómo activo el entorno?
+Si lo tienes desactivado usa
+```bash
+source env/bin/activate  # Linux/Mac
+.env\Scripts\activate    # Windows
 ```
 
 ### Cómo desactivo el entorno?

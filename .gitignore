@@ -18,6 +18,9 @@ share/python-wheels/
 *.egg
 MANIFEST
 
+# --- Requerimientos ---
+!requirements.txt
+
 # --- Jupyter Notebooks ---
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
