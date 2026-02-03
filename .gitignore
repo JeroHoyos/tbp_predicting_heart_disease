@@ -1,0 +1,76 @@
+# --- Entornos Virtuales ---
+.venv/
+venv/
+env/
+bin/
+lib/
+develop-eggs/
+dist/
+eggs/
+installed.files/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# --- Datos ---
+
+data/external/
+data/interim/
+data/processed/
+data/raw/
+*.csv
+*.json
+*.sql
+*.parquet
+*.feather
+*.h5
+*.xls
+*.xlsx
+
+# --- Modelos y Pesos ---
+*.pkl
+*.joblib
+*.npy
+*.npz
+*.h5
+*.pb
+*.pt
+*.pth
+*.onnx
+models/weights/
+
+# --- Configuración y Secretos ---
+.env
+.flaskenv
+secrets.json
+config.yaml
+!config.example.yaml
+
+# --- Python y Caché ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# --- IDEs y Sistema Operativo ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
